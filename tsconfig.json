@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES6", /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "CommonJS", /* Specify what module code is generated. */
+    "declaration": true, /* Generates corresponding '.d.ts' file. */
+    "removeComments": true, /* Disable emitting comments. */
+    "strict": true, /* Enable all strict type-checking options. */
+    "esModuleInterop": true, /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true, /* Ensure that casing is correct in imports. */
+    "skipLibCheck": true, /* Skip type checking all .d.ts files. */
+    "resolveJsonModule": true, /* Support JSON files as modules. */
+    "outDir": "./dist",
+    "types": [
+      "@types/jest",
+    ]
+  },
+  "include": [
+    "src/index.ts",
+    "__tests__/**/*.test.ts"
+  ],
+}

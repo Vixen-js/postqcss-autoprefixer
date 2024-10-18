@@ -1,0 +1,66 @@
+{
+  "name": "@vixen-js/postqcss-autoprefixer",
+  "version": "0.2.0",
+  "description": "A PostCSS plugin to prefix vixen-js desktop apps",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "qt",
+    "react",
+    "desktop",
+    "vixen-js"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "author": "Seobryn <ing.jose.joya@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vixen-js/postqcss-autoprefixer"
+  },
+  "bugs": {
+    "url": "https://github.com/Vixen-js/postqcss-autoprefixer/issues"
+  },
+  "homepage": "https://github.com/Vixen-js/postqcss-autoprefixer",
+  "dependencies": {
+    "postcss": "^8.4.47"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.9.1",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "ts-standard": "^12.0.2",
+    "typescript": "^5.6.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "ts-standard": {
+    "project": "./tsconfig.json",
+    "ignore": [
+      "dist"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "ts-standard"
+    ],
+    "parserOptions": {
+      "project": [
+        "tsconfig.json"
+      ]
+    },
+    "ignorePatterns": [
+      "dist/**",
+      "node_modules/**",
+      "__tests__/**"
+    ]
+  }
+}
